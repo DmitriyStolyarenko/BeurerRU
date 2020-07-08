@@ -9,14 +9,21 @@
 .color-background-second{
 	background-color: #EFEFED;
 }
-.l-section{
-&.row-right{
-		padding:10px 0px;
-		justify-content: flex-end;
-	}
-}
 .l-main-title>span{
+	font-weight: bold;
 	color: #C50451;
+}
+.bold-p{
+	font-weight: normal;
+	padding-top: 20px;
+	padding-left: 41px;
+	@include tablets {
+		padding-left: 0px;
+	}
+
+	@include phones {
+		padding-left: 0px;
+	}
 }
 .title-color-brown{
 	color: #604944 !important;
@@ -24,8 +31,8 @@
 .paragraph-color-gray{
 	color: #777778 !important;
 }
-.l-half{
-		&.tablets-haigh{
-		height: 60%;
-		}
+.l-section{
+	&.tablets-haigh{
+	min-height: 600px;
+    }
 }
