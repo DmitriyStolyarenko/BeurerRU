@@ -383,7 +383,7 @@ body {
 .bold-p {
   font-weight: normal;
   padding-top: 20px;
-  padding-left: 41px;
+  padding-left: 4%;
 }
 @media screen and (max-width: 768px) {
   .bold-p {
@@ -393,6 +393,8 @@ body {
 @media screen and (max-width: 480px) {
   .bold-p {
     padding-left: 0px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
@@ -402,8 +404,4 @@ body {
 
 .paragraph-color-gray {
   color: #777778 !important;
-}
-
-.l-section.tablets-haigh {
-  min-height: 600px;
 }

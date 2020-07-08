@@ -16,13 +16,15 @@
 .bold-p{
 	font-weight: normal;
 	padding-top: 20px;
-	padding-left: 41px;
+	padding-left: 4%;
 	@include tablets {
 		padding-left: 0px;
 	}
 
 	@include phones {
 		padding-left: 0px;
+		margin-left: auto;
+		margin-right: auto;
 	}
 }
 .title-color-brown{
@@ -30,9 +32,4 @@
 }
 .paragraph-color-gray{
 	color: #777778 !important;
-}
-.l-section{
-	&.tablets-haigh{
-	min-height: 600px;
-    }
 }
